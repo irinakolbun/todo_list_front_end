@@ -19,7 +19,7 @@ ul {
     color: white;
     border-radius: 50px;
     background-color: #b8bdc4;
-    color: black;
+    color: #000000;
 }
 #add-new-todo-button{
  font-size: 20px;
@@ -35,3 +35,10 @@ ul {
  margin-top: 10px;
 }
 li {padding: 10px;}
+#add-new-todo-button:active{
+ box-shadow: 5px 5px 5px #90A4AE ;
+}
+ul, li, a {list-style-type: none;
+    text-decoration: none;
+    color: white;
+}

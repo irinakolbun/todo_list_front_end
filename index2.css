@@ -1,0 +1,37 @@
+body { color: white;
+    /*background-color: violet;*/
+    background-image: url("http://www.millionglitters.com/background/dark/dark-pattern-012.gif");
+    font-size:20px;
+    padding:50px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+h1 {text-align: center;
+    font-size:30px;
+    text-decoration: underline;
+}
+ul {
+    list-style-type: square;
+}
+
+.pomodoro-estimate {
+    font-weight: bold;
+    color: white;
+    border-radius: 50px;
+    background-color: #b8bdc4;
+    color: black;
+}
+#add-new-todo-button{
+ font-size: 20px;
+ text-align: center;
+ color: #FFF;
+ outline: none;
+ border-style: none;
+ padding: 10px;
+ border-radius: 3px;
+ box-shadow: 2px 2px 1px #90A4AE ;
+ display: block;
+ background-color: #fcaaff ;
+ margin-top: 10px;
+}
+li {padding: 10px;}

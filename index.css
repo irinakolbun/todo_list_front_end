@@ -7,7 +7,7 @@ body { color: white;
     font-size:20px;
     padding:50px;
     text-align: center;
-    font-family: "helvetica neue", helvetica, sans-serif;
+    font-family: 'Indie Flower', cursive;
 }
 h1 {text-align: center;
     font-size:30px;
@@ -48,4 +48,7 @@ ul, li, a {list-style-type: none;
 li:hover{
   background-color: #7a0416;
   border-radius: 3px;
+}
+.completed-todo{
+  text-decoration: line-through;
 }

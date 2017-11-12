@@ -1,10 +1,13 @@
 body { color: white;
     /*background-color: violet;*/
     background-image: url("http://www.millionglitters.com/background/dark/dark-pattern-012.gif");
+    /*background-image: url("http://www.nmgncp.com/data/out/93/4341036-dark-blue-computer-wallpaper.png");
+    background-repeat: no-repeat;
+    background-size: cover;*/
     font-size:20px;
     padding:50px;
     text-align: center;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "helvetica neue", helvetica, sans-serif;
 }
 h1 {text-align: center;
     font-size:30px;
@@ -41,4 +44,8 @@ li {padding: 10px;}
 ul, li, a {list-style-type: none;
     text-decoration: none;
     color: white;
+}
+li:hover{
+  background-color: #7a0416;
+  border-radius: 3px;
 }
